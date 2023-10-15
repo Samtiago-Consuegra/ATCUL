@@ -20,8 +20,8 @@ body {
 
 header {
     position: absolute;
-    top: 0%;
-    left: 0%;
+    top: 0;
+    left: 0;
     width: 100%;
     padding: 30px 100px;
     display: flex;
@@ -98,4 +98,71 @@ h2 {
     font-size: 1.6em;
     color: white;
     left: 5px;
+}
+
+/* Estilos para el container */
+.container {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Estilos para los labels */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 17rem;
+}
+
+/* Estilos para el botón y la lista desplegable */
+.botones {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.dropdown-button {
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    padding: 10px 60px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+}
+
+.dropdown-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+/* Estilos para el efecto de deslizamiento */
+.slide-down {
+    display: block;
+    animation: slide-down 0.5s ease;
+}
+
+/* Estilos para el mensaje de opción vacía */
+.mensaje-vacio {
+    color: red;
+    display: none;
+    margin-top: 5px;
 }
