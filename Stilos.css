@@ -20,8 +20,8 @@ body {
 
 header {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 0%;
     width: 100%;
     padding: 30px 100px;
     display: flex;
@@ -103,39 +103,40 @@ h2 {
 /* Estilos para el container */
 .container {
     position: absolute;
-    top: 150px;
-    left: 100px;
+    top: 150px; /* Ajusta según tu preferencia para aumentar la separación */
+    left: 100px; /* Ajusta según tu preferencia */
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /* Mantenemos la disposición en fila */
     align-items: center;
 }
 
 /* Estilos para los labels */
 .input-group {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Cambiamos a disposición en columna para los botones */
     align-items: flex-start;
-    margin-right: 20px;
+    margin-right: 20px; /* Espacio entre los grupos de input */
 }
 
 label {
-    font-weight: bold;
-    margin-right: 17rem;
+    font-weight: bold; /* Opcional: Texto en negrita */
+    margin-right: 17rem; /* Espacio entre los labels */
 }
+
 
 /* Estilos para el botón y la lista desplegable */
 .botones {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 10px; /* Separación entre los labels y los botones/listas */
 }
 
 .dropdown-button {
     background-color: #0066ff;
     color: white;
     border: none;
-    padding: 10px 60px;
+    padding: 10px 60px; /* Aumentamos el padding para hacerlos más largos */
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 10px; /* Agregamos borde redondeado */
 }
 
 .dropdown-list {
@@ -154,15 +155,20 @@ label {
     cursor: pointer;
 }
 
-/* Estilos para el efecto de deslizamiento */
+/* Agregar estilos para el efecto de deslizamiento */
 .slide-down {
     display: block;
     animation: slide-down 0.5s ease;
 }
 
-/* Estilos para el mensaje de opción vacía */
-.mensaje-vacio {
-    color: red;
-    display: none;
-    margin-top: 5px;
+/* Estilos para el mensaje de "No hay registros" */
+.No-se-elige-nada {
+    background-color: #fff; /* Fondo blanco */
+    padding: 15px; /* Espaciado alrededor del contenido */
+    width: 50%; /* Ancho del div (ajusta según tu preferencia) */
+    position: absolute;
+    left: 100px; /* Alinear al lado izquierdo con espacio */
+    top: 230px; /* Ajusta la posición vertical según tu preferencia */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
 }
