@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Stilos.css">
+</head>
+<body>
+    <header>
+        <img src="img/Logo_cul.png" class="logo">
+        <ul class="navigation">
+            <li><a href="#">Institucional</a></li>
+            <li><a href="#">Academico</a></li>
+            <li><a href="#">Resultado de evaluacion</a></li>
+            <li><a href="#">Estado de cuenta</a></li>
+            <li><a href="#">Perfil</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="input-group">
+            <label for="programa">Programa</label>
+            <div class="botones">
+                <button class="dropdown-button" id="dropdown-button-programa">Seleccionar</button>
+                <ul class="dropdown-list" id="myDropdownPrograma">
+                    <li class="dropdown-item">Opción 1</li>
+                    <li class="dropdown-item">Opción 2</li>
+                    <li class="dropdown-item">Opción 3</li>
+                </ul>
+            </div>
+        </div>
+        <div class="input-group">
+            <label for="periodo">Periodo</label>
+            <div class="botones">
+                <button class="dropdown-button" id="dropdown-button-periodo">Seleccionar</button>
+                <ul class="dropdown-list" id="myDropdownPeriodo">
+                    <li class="dropdown-item">Opción A</li>
+                    <li class="dropdown-item">Opción B</li>
+                    <li class="dropdown-item">Opción C</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="No-se-elige-nada">
+        <h3>
+            No hay registros, verifique los filtros de la consulta
+        </h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
