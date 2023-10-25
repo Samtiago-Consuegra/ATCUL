@@ -93,3 +93,14 @@ a {
     padding: 10px 20px;
     cursor: pointer;
 }
+
+/*Responsive*/
+@media(max-width:991px) {
+    body {
+        padding: 30px;
+    }
+
+    form {
+        width: 100%;
+    }
+}

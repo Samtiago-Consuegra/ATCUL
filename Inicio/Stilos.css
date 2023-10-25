@@ -302,3 +302,13 @@ label {
     margin-bottom: 5px;
 }
 
+/*Responsive*/
+@media(max-width:991px) {
+    body {
+        padding: 30px;
+    }
+
+    form {
+        width: 100%;
+    }
+}
