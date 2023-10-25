@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado de evaluacion</title>
+    <link rel="stylesheet" href="Stilos.css">
+</head>
+<body>
+    <header>
+        <a href="ATCUL.html">
+            <img src="img/Logo_cul.png" class="logo" href="">
+        </a>
+        <ul class="navigation">
+            <li><a href="#">Institucional</a></li>
+            <li><a href="#">Academico</a></li>
+            <li><a href="ResultadoNota.html">Resultado de evaluacion</a></li>
+            <li><a href="#">Estado de cuenta</a></li>
+            <li><a href="#">Perfil</a></li>
+        </ul>
+    </header>
+    <div class="No-se-elige-nada">
+        <h3>
+            No hay registros, verifique los filtros de la consulta
+        </h3>
+    </div>
+    <div class="container">
+        <div class="input-group">
+            <label for="programa">Programa</label>
+            <div class="botones">
+                <button class="dropdown-button" id="dropdown-button-programa">Seleccionar</button>
+                <ul class="dropdown-list" id="myDropdownPrograma">
+                    <li class="dropdown-item">Opción 1</li>
+                    <li class="dropdown-item">Opción 2</li>
+                    <li class="dropdown-item">Opción 3</li>
+                </ul>
+            </div>
+        </div>
+        <div class="input-group">
+            <label for="periodo">Periodo</label>
+            <div class="botones">
+                <button class="dropdown-button" id="dropdown-button-periodo">Seleccionar</button>
+                <ul class="dropdown-list" id="myDropdownPeriodo">
+                    <li class="dropdown-item">Opción A</li>
+                    <li class="dropdown-item">Opción B</li>
+                    <li class="dropdown-item">Opción C</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="cuadro-nota">
+        <label class="materia">Materia</label>
+        <div class="container-clase">
+            <label >Docente</label>
+            <label class="periodo">Periodo: XXXX-X</label>
+        </div>
+        <div class="evaluacion-container">
+            <ul class="evaluacion">
+                <label>Evaluación</label>
+                <li>Parcial 1</li>
+                <li>Parcial 2</li>
+                <li>Parcial 3</li>
+            </ul>
+            <ul class="porcentaje">
+                <label>Porcentaje</label>
+                <li>30%</li>
+                <li>30%</li>
+                <li>40%</li>
+            </ul>
+            <ul class="nota">
+                <label>Nota</label>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+            </ul>
+        </div>
+        <div class="acumulada">Nota acumulada: </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
